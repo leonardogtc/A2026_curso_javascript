@@ -1,9 +1,10 @@
 // =============================================================================
-// FUNÇÃO EM JAVASCRIPT: CIDADÃ DE PRIMEIRA CLASSE (FIRST-CLASS CITIZEN)
+// FUNÇÃO EM JAVASCRIPT: CIDADÃO DE PRIMEIRA CLASSE (FIRST-CLASS CITIZEN)
 // =============================================================================
-// Em Ciência da Computação, dizer que funções são "Cidadãs de Primeira Classe"
-// significa que elas podem ser tratadas exatamente como qualquer outro tipo de dado:
-// podem ser passadas por parâmetro, retornadas por outras funções e atribuídas a variáveis.
+// Em Ciência da Computação, dizer que funções são "Cidadãos de Primeira Classe"
+// significa que elas podem ser tratadas exatamente como qualquer outro tipo de
+// dado: podem ser passadas por parâmetro, retornadas por outras funções e atri-
+// buídas a variáveis.
 //
 // Funções que recebem ou retornam outras funções são chamadas de:
 // "Higher-Order Functions" (Funções de Alta Ordem).
@@ -40,7 +41,8 @@ function soma(a, b) {
 }
 
 // Invocação encadeada direta:
-soma(2, 3)(4) // soma(2, 3) retorna a função interna, que é imediatamente chamada com (4) -> Saída: 9
+soma(2, 3)(4) // soma(2, 3) retorna a função interna, que é imediatamente chama-
+              // da com (4) -> Saída: 9
 
 // Invocação dividida em etapas (reaproveitando o cálculo prévio):
 const cincoMais = soma(2, 3) // Guarda a função interna memorizando a + b (5)
