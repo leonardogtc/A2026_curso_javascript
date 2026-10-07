@@ -1,9 +1,9 @@
 // =============================================================================
 // PARÂMETROS E RETORNOS SÃO OPCIONAIS EM JAVASCRIPT
 // =============================================================================
-// Diferente de linguagens estáticas (como Java ou C#), em JavaScript você não é obrigado
-// a passar todos os argumentos definidos, e uma função não precisa retornar valor
-// em todos os caminhos do seu fluxo.
+// Diferente de linguagens estáticas (como Java ou C#), em JavaScript você não 
+// é obrigado a passar todos os argumentos definidos, e uma função não precisa 
+// retornar valor em todos os caminhos do seu fluxo.
 // =============================================================================
 
 function area(largura, altura) {
