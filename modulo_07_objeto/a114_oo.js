@@ -44,8 +44,10 @@ objetoExemplo.processamento() // O foco agora é o OBJETO chamando seu método
 //    públicas seguras. Diminui o acoplamento e facilita refatorações.
 //
 // 3. HERANÇA:
-//    Capacidade de reusar código e estabelecer relações de parentesco (relação "é um").
-//    Em JavaScript, a herança é baseada em PROTÓTIPOS (Prototype Chain) e não em classes rígidas.
+//    Capacidade de reusar código e estabelecer relações de parentesco (relação
+//    "é um").
+//    Em JavaScript, a herança é baseada em PROTÓTIPOS (Prototype Chain) e não 
+//    em classes rígidas.
 //
 // 4. POLIMORFISMO:
 //    Capacidade de múltiplos objetos de tipos diferentes responderem à mesma

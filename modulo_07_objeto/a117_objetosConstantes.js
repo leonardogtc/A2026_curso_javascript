@@ -8,7 +8,8 @@
 // - A constante `pessoa` armazena um ENDEREÇO DE MEMÓRIA (ex: ponteiro 123).
 // - O objeto em si reside no endereço 123 da memória Heap.
 // - `pessoa.nome = 'Pedro'` altera os dados DENTRO do endereço 123 (permitido).
-// - `pessoa = { nome: 'Ana' }` tentaria mudar o ponteiro para o endereço 456 (proibido!).
+// - `pessoa = { nome: 'Ana' }` tentaria mudar o ponteiro para o endereço 456
+//   (proibido!).
 // =============================================================================
 
 // pessoa -> aponta para o endereço 123 -> { nome: 'Joao' }
@@ -21,7 +22,8 @@ console.log(pessoa)   // Saída: { nome: 'Pedro' }
 
 // CONGELANDO O OBJETO COM Object.freeze():
 // O método `Object.freeze()` torna o conteúdo do próprio objeto 100% IMUTÁVEL!
-// A partir desta linha, o objeto não aceita adição, remoção nem alteração de propriedades:
+// A partir desta linha, o objeto não aceita adição, remoção nem alteração de
+// propriedades:
 Object.freeze(pessoa)
 
 // Todas as tentativas abaixo serão sumariamente IGNORADAS pelo JavaScript
